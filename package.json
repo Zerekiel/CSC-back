@@ -1,0 +1,37 @@
+{
+  "name": "csc-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "NODE_ENV=development node ./bin/www",
+    "start:prod": "NODE_ENV=production node ./bin/www",
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@withvoid/make-validation": "^1.0.5",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "morgan": "~1.9.1",
+    "socket.io": "^3.0.4",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "migrate-mongo": "^8.1.4"
+  }
+}
